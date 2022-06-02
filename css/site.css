@@ -208,6 +208,11 @@ li a:hover{
 	grid-row: 2/4;
 }
 
+.album img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
 #footer{
 	width: 100%;
 	background-color: #FFF;
@@ -216,10 +221,16 @@ li a:hover{
 	display: flex;
 }
 
+
 #footer p{
 	line-height: 1.6;
 	font-size: 16px;
 	margin-left: 48px;
+}
+
+#footer a{
+	color: blue;
+	text-decoration: none;
 }
 
 
